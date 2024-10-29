@@ -1,0 +1,55 @@
+personal blogs api
+
+
+operations possible by a user
+
+
+1. user registers
+2. user logins 
+3. user logouts
+
+User Logins - user creates a new blog
+            - user opens an existing blog
+            - user writes a new blog
+            - user edits an existing blog
+            - user deletes an existing blog
+            
+
+This sounds like all the basic steps, let's group them down wrt 
+all the http 
+
+GET
+1. existing blogs (list of articles)
+2. user authentication and session details.
+
+1. list of articles. filters - publishing date, tags
+2. single article, specified by the id
+
+POST
+1. User registration data
+2. new blog 
+
+1. create new article to be published.
+
+UPDATE
+1. existing blogs
+2. user details
+
+1. update a single article specified by the id.
+
+
+DELETE
+1. existing details
+2. user details
+
+1. delete a single article, specified by id.
+
+
+execution start
+
+api1 - create a new blog
+
+folder structure needs to be created, can't create it in one file.
+
+
+
